@@ -7,13 +7,14 @@ import ThemeContextProvider from "./context/ThemeContext";
 function App() {
   return (
     <div className="App">
-      <ThemeContextProvider>
         <AuthContextProvider>
+      <ThemeContextProvider>
            <NavBar/>
            <BookList/>
-           <ThemeToggle/>
-      </AuthContextProvider>
+           <ThemeToggle/> 
       </ThemeContextProvider>
+      </AuthContextProvider>
+
     </div>
   );
 }

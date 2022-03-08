@@ -7,7 +7,7 @@ class AuthContextProvider extends Component {
         isLogged:false
      } 
      toggleLogged = () => {
-         this.setState({ isLogged:!this.state.isLogged });
+         this.setState({isLogged:!this.state.isLogged});
      };
     render() { 
         return (
